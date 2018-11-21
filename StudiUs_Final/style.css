@@ -1,0 +1,107 @@
+/*page set default*/
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "times new roman";
+}
+
+/*tag styling*/
+ul{
+	width:100%;
+}
+
+ul li{
+	padding: 12px 5px;
+	display:inline-block;
+}
+
+button{
+	padding:5px;
+}
+
+
+/*class styling*/
+
+.vertCenter{
+	top:25%;
+	-ms-transform:translateY(25%);
+	transform:translateY(25%);
+}
+
+.menu{
+	width:10%;
+	padding:20px 20px 0 10px;
+	background-color:pink;
+}
+
+.menuli{
+	display:block;
+	text-align:center;
+}
+
+.frame{
+	position:relative;
+}
+
+.myscroll{
+    overflow: scroll;
+	-ms-overflow-style: none; 
+    overflow: -moz-scrollbars-none; 
+}
+
+.myscroll::-webkit-scrollbar { 
+    display: none; 
+}
+
+.dragDiv{
+	width:100%;
+	height:30px;;
+	border: 1px solid black;
+}
+
+.webscroll{
+	overflow:scroll;
+	-webkit-overflow-scrolling:touch;
+}
+
+
+/*id styling*/
+#menuO {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    width: 220px;
+    margin-left: -110px;
+    margin-top: -160px;
+    height: 310px;
+    text-align: center;
+}
+
+#menuC {
+    position: absolute;
+    left: 0;
+    width: 110px;
+    //margin-left: -110px;
+    height:32px;
+    text-align: center;
+}
+
+
+#first-menu {
+    position: relative;
+    float: left;
+    width: 160px;
+    margin-left: 30px;
+    height: auto;
+	list-style: none;
+}
+
+#second-menu {
+    position: relative;
+    float: left;
+    width: 160px;
+    margin-left: 30px;
+    height: auto;
+    margin-top: 30px;
+	list-style: none;
+}
